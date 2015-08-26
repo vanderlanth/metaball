@@ -292,11 +292,19 @@ var onFrame = function(event){
 			}
 		}
 	}
+	if(process.collision === true){
+		document.querySelector('.overlay-metaball-item-center').style.color = 'white';
+	}
+	else {
+		document.querySelector('.overlay-metaball-item-center').style.color = 'black';
+	}
 };
+
 
 var onResize = function(event){
 	process.init();
 }
+
 
 function detectMove(event){
 	var adjustY, adjustX, posX, posY;
@@ -308,6 +316,7 @@ function detectMove(event){
 	process.mouseX  = posX;
 	process.mouseY  = posY;
 }
+
 
 var events = ["touchstart", "touchmove", "mousemove"];
 events.forEach(function(event){
