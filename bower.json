@@ -1,0 +1,28 @@
+{
+  "name": "metaballConnect",
+  "authors": [
+    "vanderlanth <nicolaslanthemann@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vanderlanth/metaballConnect.git"
+  },
+  "description": "A little class that generates metaball connections between elements",
+  "main": [
+    "src/main.js",
+    "src/main.scss",
+    "src/index.jade"
+  ],
+  "keywords": [
+    "metaball",
+    "paper.js",
+    "connection",
+    "canvas"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "paper": "~0.9.23"
+  },
+  "version": "0.0.5",
+  "homepage": "https://github.com/vanderlanth/metaballConnect"
+}

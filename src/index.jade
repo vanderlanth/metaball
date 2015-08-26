@@ -1,0 +1,15 @@
+
+doctype html
+html(lang="en")
+	head
+		title Ginetta | Meta Ball
+		link(href='main.css', rel='stylesheet')
+	body
+		div.canvas-container
+			.overlay-metaball
+				each value in ['Strategy', 'Concept', 'Interface', 'Design', 'Development', 'Optimization']
+					.overlay-metaball-item= value
+				.overlay-metaball-item-center clients
+			canvas#metaball(resize)
+		script(async type='text/javascript' src='paper-full.js')
+		script(async type='text/paperscript' src='main.js' canvas='metaball')

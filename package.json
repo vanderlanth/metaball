@@ -1,0 +1,39 @@
+{
+  "name": "metaball",
+  "description": "A little class that generates metaball connections between elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nicolas lanthemann vanderlanth@gmail.com",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify-css": "^1.2.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.2.0",
+    "browser-sync": "^2.8.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanderlanth/metaballConnect.git"
+  },
+  "keywords": [
+    "metaball",
+    "paper.js",
+    "connection",
+    "canvas"
+  ],
+  "bugs": {
+    "url": "https://github.com/vanderlanth/metaballConnect/issues"
+  },
+  "homepage": "https://github.com/vanderlanth/metaballConnect#readme",
+  "version": "1.0.0"
+}
